@@ -25,8 +25,8 @@ export default function Home() {
           <div className="max-w-md  mx-auto mt-12 text-2xl text-left">
             How to make order Dinner Sandwich:
             <ol className="list-decimal list-inside">
-              <li>Say "1" for one sandwich</li>
-              <li>Say "2" for two sandwich</li>
+              <li>Say “1” for one sandwich</li>
+              <li>Say “2” for two sandwich</li>
             </ol>
           </div>
         </div>
