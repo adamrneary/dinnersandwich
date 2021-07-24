@@ -16,10 +16,19 @@ export default function Home() {
         />
       </Head>
 
-      <main className="absolute inset-0 flex flex-col items-center justify-around p-6 text-center">
+      <main className="relative min-h-full p-6 text-center">
         <div>
-        <h1 className="text-6xl md:text-7xl lg:text-9xl">Dinner Sandwich</h1>
-        <p className="mt-12 md:text-2xl uppercase">It is good sandwich.</p>
+          <h1 className="text-6xl md:text-7xl lg:text-9xl mt-24">
+            Dinner Sandwich
+          </h1>
+          <p className="mt-12 md:text-2xl uppercase">It is good sandwich.</p>
+          <div className="max-w-md  mx-auto mt-12 text-2xl text-left">
+            How to make order Dinner Sandwich:
+            <ol className="list-decimal list-inside">
+              <li>Say "1" for one sandwich</li>
+              <li>Say "2" for two sandwich</li>
+            </ol>
+          </div>
         </div>
       </main>
     </div>
